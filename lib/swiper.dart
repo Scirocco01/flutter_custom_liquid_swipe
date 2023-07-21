@@ -26,6 +26,8 @@ class _SwiperFileState extends State<SwiperFile> {
         children: [
           Positioned(
 
+            //start point here
+
             child: GestureDetector(
               onHorizontalDragStart: (drag){
                 print('this is the drag${drag.globalPosition}');
