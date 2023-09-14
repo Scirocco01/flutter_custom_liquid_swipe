@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_liquid_swipe/pageView.dart';
 import 'package:flutter_custom_liquid_swipe/swiper.dart';
+import 'package:flutter_custom_liquid_swipe/two_screen_thoery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SwiperFile(),
+      home: OverlayWithHole(),
     );
   }
 }
